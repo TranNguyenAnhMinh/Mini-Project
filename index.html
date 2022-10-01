@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Trần Nguyễn Ánh Minh</title>
 </head>
 
 <body>
     <header>
-        <div class="nav" id="nav" >
+        <div class="nav" id="nav">
             <div class="header-icon">
                 <img src="./img/Nyan-Cat-GIF-unscreen.gif">
             </div>
@@ -35,10 +37,12 @@
                 <div class="showtop" style="font-size: 16px;">giới thiệu sản phẩm</div>
                 <h2 class="showtop delay-02">Ánh Minh</h2>
                 <div class="text" style="font-size: 16px;">
-                    <p class="showtop delay-04" >Sản phẩm này là TUI, có thể đi bộ, chạy nhảy,nhắm mắt khi ngủ mở mắt khi tỉnh, dãy đành đạch nếu
+                    <p class="showtop delay-04">Sản phẩm này là TUI, có thể đi bộ, chạy nhảy,nhắm mắt khi ngủ mở mắt khi
+                        tỉnh, dãy đành đạch nếu
                         khum có thứ tui muốn </p>
-                    <p class="showtop delay-06" >Sản Phẩm này không thay thế thuốc chữa bệnh nhưng có thể chữa tâm hồn nạnh nẽo của bạn </p>
-                    <p class="showtop delay-08" >Số lượng có hạn,Sở hữu với giá cực kì ưu đải chỉ từ 1 cốc trà sữa </p>
+                    <p class="showtop delay-06">Sản Phẩm này không thay thế thuốc chữa bệnh nhưng có thể chữa tâm hồn
+                        nạnh nẽo của bạn </p>
+                    <p class="showtop delay-08">Số lượng có hạn,Sở hữu với giá cực kì ưu đải chỉ từ 1 cốc trà sữa </p>
                 </div>
             </div>
         </div>
@@ -53,29 +57,29 @@
             <div class="itemImg showtop delay-04">
                 <img src="./img/my-pic3.jpg" alt="">
                 <div class="content">
-                    <h3>PR bản thân</h3>
-                    <h3>Thích mấy cái cute cute</h3>
+                    <h3>Giá:1 ly trà sửa</h3>
+                    <h2>CLICK HERE TO BUY </h2>
                 </div>
             </div>
             <div class="itemImg showtop delay-06">
                 <img src="./img/chill-vipe.png" alt="">
                 <div class="content">
-                    <h3>PR bản thân</h3>
-                    <h3>Thích mấy cái cute cute</h3>
+                    <h3>Giá:2 ly trà sửa</h3>
+                    <h2>CLICK HERE TO BUY </h2>
                 </div>
             </div>
             <div class="itemImg showtop delay-08">
                 <img src="./img/my-pic2.png" alt="">
                 <div class="content">
-                    <h3>PR bản thân</h3>
-                    <h3>Thích mấy cái cute cute</h3>
+                    <h3>Giá:3 ly trà sửa</h3>
+                    <h2>CLICK HERE TO BUY </h2>
                 </div>
             </div>
             <div class="itemImg showtop delay-1">
                 <img src="./img/drink.png" alt="">
                 <div class="content">
-                    <h3>PR bản thân</h3>
-                    <h3>Thích mấy cái cute cute</h3>
+                    <h3>Giá: 4 ly trà sửa</h3>
+                    <h2>CLICK HERE TO BUY </h2>
                 </div>
             </div>
         </div>
@@ -117,19 +121,54 @@
     </div>
     <div class="item footer">
         <div class="title showtop">Ánh Minh</div>
-            <div class="link">
-                <ul> 
-                    <li  class="showtop delay-02">HOME</li>
-                    <li class="showtop delay-04" >CONTACT</li>
-                    <li  class="showtop delay-06">INFO</li>
-                    <li  class="showtop delay-08">BUY</li>
-                </ul>
+        <div class="link">
+            <ul>
+                <li class="showtop delay-02">HOME</li>
+                <li class="showtop delay-04">CONTACT</li>
+                <li class="showtop delay-06">INFO</li>
+                <li class="showtop delay-08">BUY</li>
+            </ul>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fa-solid fa-xmark"></i>
             </div>
-        
-    </div>
 
 
+            <header class="modal-header">
+                <i class="fa-solid fa-suitcase-rolling" style="margin-right: 16px;"></i>
+                CHỐT ĐƠN ĐI
+            </header>
+
+            <div class="modal-body">
+                <label for="quantity" class="modal-lable">
+                    <i class="fa-solid fa-suitcase-rolling" ></i>
+
+                    Mua bé bằng vài cốc trà sửa
+                </label>
+                <input id="quantity" type="text" class="modal-input" placeholder="Mã sản phẩm?">
+
+                <label for="quantitys" class="modal-lable">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    Nhập ghi chú cho shop
+                </label>
+                <input id="quantitys" type="text" class="modal-input" placeholder="Enter address...">
+                <button id="buy-ticket">
+                    CHỐT ĐƠN 
+                    <i class="fa-solid fa-check"></i>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-help">Cần <a href="">giúp đở?</a></div>
+            </div>
+        </div>
     </div>
+
     <script src="main.js"></script>
 </body>
 
