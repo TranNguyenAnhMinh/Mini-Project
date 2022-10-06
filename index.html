@@ -23,11 +23,13 @@
                 <li>HOME</li>
                 <li>INFO</li>
                 <li>CONTACT</li>
+               
             </ul>
+             <div class="sign js-open-login">ĐĂNG KÍ|ĐĂNG NHẬP</div>
         </div>
         <div class="banner">
             <h1 class="titles">ÁNH MINH</h1>
-            <p class="sub-titles" style="font-size: 16px;">( this web was made by me to selling my self )</p>
+            <p class="sub-titles" style="font-size: 16px;">( this web was made by me to sell my self )</p>
             <img src="./img/my-slef2.png" alt="">
         </div>
     </header>
@@ -58,28 +60,28 @@
                 <img src="./img/my-pic3.jpg" alt="">
                 <div class="content">
                     <h3>Giá:1 ly trà sửa</h3>
-                    <h2>CLICK HERE TO BUY </h2>
+                    <button class="btn js-buy-ticket">CLICK HERE TO BUY </button>
                 </div>
             </div>
             <div class="itemImg showtop delay-06">
                 <img src="./img/chill-vipe.png" alt="">
                 <div class="content">
                     <h3>Giá:2 ly trà sửa</h3>
-                    <h2>CLICK HERE TO BUY </h2>
+                    <button class="btn js-buy-ticket">CLICK HERE TO BUY </button>
                 </div>
             </div>
             <div class="itemImg showtop delay-08">
                 <img src="./img/my-pic2.png" alt="">
                 <div class="content">
                     <h3>Giá:3 ly trà sửa</h3>
-                    <h2>CLICK HERE TO BUY </h2>
+                    <button class="btn js-buy-ticket">CLICK HERE TO BUY </button>
                 </div>
             </div>
             <div class="itemImg showtop delay-1">
                 <img src="./img/drink.png" alt="">
                 <div class="content">
                     <h3>Giá: 4 ly trà sửa</h3>
-                    <h2>CLICK HERE TO BUY </h2>
+                    <button class="btn js-buy-ticket">CLICK HERE TO BUY </button>
                 </div>
             </div>
         </div>
@@ -98,22 +100,26 @@
                 <div class="contacItem zoomshow delay-02">
                     <div class="icon showtop delay-04 "><i class="fa-brands fa-facebook"></i> Facebook</div>
                     <div class="titleContact showtop delay-06">Trần Nguyễn Ánh Minh</div>
-                    <div class="slug showtop delay-08">fb.com/trannguyenanhminh.dev</div>
+                    <div class="slug showtop delay-08"><a href="https://www.facebook.com/profile.php?id=100011223286485"
+                            target="_blank">fb.com/trannguyenanhminh.dev</a></div>
                 </div>
                 <div class="contacItem zoomshow delay-04">
-                    <div class="icon showtop delay-06"><i class="fa-brands fa-facebook"></i> Facebook</div>
+                    <div class="icon showtop delay-06" style="background-color: rgb(9, 133, 32);"><i class="fa-solid fa-phone"></i> Phone</div>
                     <div class="titleContact showtop delay-08">Trần Nguyễn Ánh Minh</div>
-                    <div class="slug showtop delay-1">fb.com/trannguyenanhminh.dev</div>
+                    <div class="slug showtop delay-1"><a href="tel:033871152x"
+                        target="_blank">Phone to:0338711xx</a></div>
                 </div>
                 <div class="contacItem zoomshow delay-06">
-                    <div class="icon showtop delay-08"><i class="fa-brands fa-facebook"></i> Facebook</div>
+                    <div class="icon showtop delay-08" style="background-color: black;"><i class="fa-brands fa-github"></i> Github</div>
                     <div class="titleContact showtop delay-1">Trần Nguyễn Ánh Minh</div>
-                    <div class="slug showtop delay-12">fb.com/trannguyenanhminh.dev</div>
+                    <div class="slug showtop delay-12"><a href="https://github.com/TranNguyenAnhMinh"
+                        target="_blank">github.io/trannguyenanhminh.dev</a></div>
                 </div>
                 <div class="contacItem zoomshow delay-08">
-                    <div class="icon showtop delay-1"><i class="fa-brands fa-facebook"></i> Facebook</div>
+                    <div class="icon showtop delay-1" style="background-color: red;"><i class="fa-solid fa-envelope"></i> Gmail</div>
                     <div class="titleContact showtop delay-12">Trần Nguyễn Ánh Minh</div>
-                    <div class="slug showtop delay-14">fb.com/trannguyenanhminh.dev</div>
+                    <div class="slug showtop delay-14"><a href="mailto:trannguyenanhminh2000dl@gmail.com"
+                        target="_blank">trannguyenanhminh@gmail.com</a></div>
                 </div>
 
             </div>
@@ -133,33 +139,33 @@
     </div>
 
     </div>
-    <div class="modal">
-        <div class="modal-container">
-            <div class="modal-close">
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
                 <i class="fa-solid fa-xmark"></i>
             </div>
 
 
             <header class="modal-header">
-                <i class="fa-solid fa-suitcase-rolling" style="margin-right: 16px;"></i>
+                <i class="fa-sharp fa-solid fa-bag-shopping" style="margin-right: 16px;"></i>
                 CHỐT ĐƠN ĐI
             </header>
 
             <div class="modal-body">
                 <label for="quantity" class="modal-lable">
-                    <i class="fa-solid fa-suitcase-rolling" ></i>
-
-                    Mua bé bằng vài cốc trà sửa
+                    <i class="fa-solid fa-truck-fast"></i>
+                    Nhập địa chỉ ship tận nơi
                 </label>
-                <input id="quantity" type="text" class="modal-input" placeholder="Mã sản phẩm?">
+                <input id="quantity" type="text" class="modal-input" placeholder="Nhập địa chỉ?">
 
                 <label for="quantitys" class="modal-lable">
-                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-solid fa-pen"></i>
                     Nhập ghi chú cho shop
                 </label>
-                <input id="quantitys" type="text" class="modal-input" placeholder="Enter address...">
+                <input id="quantitys" type="text" class="modal-input"
+                    placeholder="Nhập ghi chú (Màu mè, kích thước...)">
                 <button id="buy-ticket">
-                    CHỐT ĐƠN 
+                    CHỐT ĐƠN
                     <i class="fa-solid fa-check"></i>
                 </button>
             </div>
@@ -169,7 +175,40 @@
         </div>
     </div>
 
-    <script src="main.js"></script>
+    <div class="sign-form js-sign-form">
+        <div class="form">
+            <div class="form-close js-modal-close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="log-in js-close-login">
+                <h1>Login</h1>
+                <div class="group">
+                    <input type="text" class="inputText" placeholder=" " required>
+                    <label for="">Tên tài khoản</label>
+                </div>
+                <div class="group">
+                    <input type="text" class="inputText" placeholder=" " required>
+                    <label for="">Mật khẩu</label>
+                </div>
+                <div class="group">
+                    <input type="checkbox">
+                    <label for="">Lưu mật khẩu</label>
+                </div>
+                <button>Đăng nhập</button>
+            </div>
+
+            <div class="form-rotage">
+                <div class="rotage"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="animation.js"></script>
+    <script src="login.js"></script>
+    <script src="modal.js"></script>
+    <script>
+       
+    </script>
 </body>
 
 </html>
